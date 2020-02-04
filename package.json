@@ -1,0 +1,19 @@
+{
+  "name": "patatapclone",
+  "version": "1.0.0",
+  "description": "patatap clone",
+  "main": "howler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matt525/patatapClone.git"
+  },
+  "author": "matt s",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matt525/patatapClone/issues"
+  },
+  "homepage": "https://github.com/Matt525/patatapClone#readme"
+}
