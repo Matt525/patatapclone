@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Matt525/patatapClone/issues"
   },
-  "homepage": "https://github.com/Matt525/patatapClone#readme"
+  "homepage": "https://github.com/Matt525/patatapClone#readme",
+  "dependencies": {
+    "paper": "^0.12.4"
+  }
 }
