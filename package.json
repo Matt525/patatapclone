@@ -1,9 +1,13 @@
 {
+  "homepage": "http://gitname.github.io/react-gh-pages",
   "name": "patatapclone",
   "version": "1.0.0",
   "description": "patatap clone",
   "main": "howler.js",
-  "scripts": {},
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Matt525/patatapClone.git"
@@ -13,10 +17,11 @@
   "bugs": {
     "url": "https://github.com/Matt525/patatapClone/issues"
   },
-  "homepage": "https://github.com/Matt525/patatapClone#readme",
   "dependencies": {
     "howler": "^2.1.3",
     "paper": "^0.12.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
