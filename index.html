@@ -4,9 +4,28 @@
 <head>
     <link rel="stylesheet" href="assets/CSS/Circles.css">
     <!-- Load the Paper.js library -->
+    
+    
+    <!-- Define inlined PaperScript associate it with myCanvas -->
+   
+<style>
+    #myCanvas{
+        background: linear-gradient(#333, #444, #777);
+    }
+
+</style>
+</head>
+
+<body>
+
+ 
+    <canvas id="myCanvas" style="width: 100vw; height: 100vh;"><h1 id="text">Hello</h1></canvas>
+
+
+    <script type="text/javascript" src="assets/JS/Lib/jquery-3.4.0.min.js"></script>
+    <script type="text/javascript" src="assets/JS/pat.js"></script>
     <script type="text/javascript" src="paper-full.js"></script>
     <script type="text/javascript" src="howler.js"></script>
-    <!-- Define inlined PaperScript associate it with myCanvas -->
     <script type="text/paperscript" canvas="myCanvas">
 
         var keyData = {
@@ -196,30 +215,6 @@
 
 
 </script>
-<style>
-    #myCanvas{
-        background: linear-gradient(#333, #444, #777);
-    }
-
-</style>
-</head>
-
-<body>
-
-
-
- 
-    <canvas id="myCanvas" style="width: 100vw; height: 100vh;"><h1 id="text">Hello</h1></canvas>
-
-    
-    
-
-
-
-
-
-    <script type="text/javascript" src="assets/JS/Lib/jquery-3.4.0.min.js"></script>
-    <script type="text/javascript" src="assets/JS/pat.js"></script>
 </body>
 
 </html>
